@@ -3,8 +3,7 @@ html {
 }
 Body {
     display: flex;
-    flex-direction: row;
-    flex-flow: row-reverse;
+    flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
     min-height: 100svh;
@@ -15,7 +14,7 @@ Body {
 } 
 
 #superior {
-    display: none;
+    display: flex;
     height: 8vmax;
     justify-content: center;
     align-items: center;
@@ -36,6 +35,10 @@ Body {
         font-size: 4vmax;
     }
 
+    #menu
+    {
+        height: 8vmax;
+    }
     #menu {
         display: flex; 
         height: 8vmax;
